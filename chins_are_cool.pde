@@ -14,11 +14,6 @@ void setup()
 
 
 
- 
-image(img,400,400,width/2,height/2);
-
-
-
 
 size (800,800);  
  background (10,21,72);
@@ -27,6 +22,7 @@ size (800,800);
 void draw ()
 {
 background (10,21,72); 
+ image(img,1,1,width,height);
  fill (255,252,252); 
 //SayCOOL (500,500);
 //SayCOOL (100,100);
