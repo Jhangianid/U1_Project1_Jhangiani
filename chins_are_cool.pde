@@ -1,23 +1,15 @@
-/*
-Name: Diya Jhangiani
-
-This project is the word cool with an image in background.
-
-*/
-
 PImage img;
 void setup()
 
 {
   img=loadImage("chins.jpeg");
-
-
-
-
-
+image(img,400,400,width/2,height/2);
 size (800,800);  
  background (10,21,72);
 }
+
+
+
 
 void draw ()
 {
